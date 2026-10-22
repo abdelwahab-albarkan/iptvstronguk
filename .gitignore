@@ -1,0 +1,28 @@
+# dependencies
+/node_modules
+
+# Next.js build output
+/.next/
+/out/
+
+# production build
+/build
+
+# TypeScript
+*.tsbuildinfo
+
+# environment files (NEXT_PUBLIC_SITE_URL is set in the hosting environment)
+.env*
+
+# logs
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# local tooling
+/.claude/
+
+# raw source images (not served; the site uses the cleaned copies in public/images)
+/design-source/
